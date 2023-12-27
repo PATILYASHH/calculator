@@ -35,7 +35,7 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 ## Authors
 
-- [Your Name](https://github.com/PATILYASHH) - Creator of this calculator app.
+- Yash Patil(https://github.com/PATILYASHH) - Creator of this calculator app.
 
 ## License
 
