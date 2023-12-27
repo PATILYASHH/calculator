@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <div class="calculator">
+
+
+    
+    <input type="text" id="equationInput" placeholder="Enter equation">
+    <div class="keys">
+      <div class="row">
+        <div class="key" onclick="addToInput('7')">7</div>
+        <div class="key" onclick="addToInput('8')">8</div>
+        <div class="key" onclick="addToInput('9')">9</div>
+        <div class="key operator" onclick="addToInput('+')">+</div>
+      </div>
+      <div class="row">
+        <div class="key" onclick="addToInput('4')">4</div>
+        <div class="key" onclick="addToInput('5')">5</div>
+        <div class="key" onclick="addToInput('6')">6</div>
+        <div class="key operator" onclick="addToInput('-')">-</div>
+      </div>
+      <div class="row">
+        <div class="key" onclick="addToInput('1')">1</div>
+        <div class="key" onclick="addToInput('2')">2</div>
+        <div class="key" onclick="addToInput('3')">3</div>
+        <div class="key operator" onclick="addToInput('*')">x</div>
+      </div>
+      <div class="row">
+        <div class="key" onclick="addToInput('0')">0</div>
+        <div class="key" onclick="addToInput('.')">.</div>
+        <div class="key operator" onclick="addToInput('/')">/</div>
+        <div class="key evaluate" onclick="solveEquation()">=</div>
+      </div>
+      <div class="row">
+        <div class="key clear" onclick="clearInput()">C</div>
+      </div>
+    </div>
+    <div class="result" id="result"></div>
+  
+    <a href="https://github.com/PATILYASHH" target="_blank" class="github-button">Visit my GitHub</a>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
